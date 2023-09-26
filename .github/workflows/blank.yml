@@ -37,8 +37,8 @@ jobs:
       # push到当前仓库
       - name: Commit files
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "j.oejoequte@gmail.com"
+          git config --local user.name "joejoequte"
           git add *
           git commit -m "commit change file"
 
